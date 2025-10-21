@@ -19,6 +19,13 @@ namespace Hospital_System_Task.DataAccess
             modelBuilder.Entity<Appointment>()
                 .Property(a => a.Status)
                 .HasConversion<String>();
+            modelBuilder.Entity<Patient>()
+                .Property(p => p.Email)
+                .IsRequired(false);
+            modelBuilder.Entity<Patient>()
+                .Property(p => p.Phone)
+                .IsRequired(false);
+
         }
     }
 }

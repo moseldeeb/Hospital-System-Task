@@ -131,3 +131,69 @@ body {
     .btn-book:hover {
         background-color: #0056b3;
     }
+
+
+/* ============================= */
+/* Appointment Form Styling */
+/* ============================= */
+
+.appointment-container {
+    max-width: 600px;
+    margin: 60px auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.appointment-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.appointment-form .form-group {
+    margin-bottom: 20px;
+}
+
+.appointment-form label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.appointment-form .form-control {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+    .appointment-form .form-control:focus {
+        border-color: #258cfb;
+        box-shadow: 0 0 4px rgba(37, 140, 251, 0.3);
+    }
+
+.btn-primary {
+    display: inline-block;
+    background-color: #258cfb;
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background-color: #1a6ed8;
+    }

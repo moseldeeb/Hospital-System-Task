@@ -12,7 +12,7 @@
                     <div class="doctor-info">
                         <h3 class="doctor-name">@doctor.Name</h3>
                         <p class="specialization">@doctor.Specialization</p>
-                        <a asp-controller="Doctors" asp-action="CompleteAppointment" asp-route-DrName="@doctor.Name" class="btn-book">
+                        <a asp-controller="Doctors" asp-action="CompleteAppointment" asp-route-Id="@doctor.Id" class="btn-book">
                             Book Appointment
                         </a>
                     </div>
